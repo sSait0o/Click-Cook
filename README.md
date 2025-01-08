@@ -1,38 +1,38 @@
 # Click-Cook
 
 # Étape 1
-Cloner le repository github
+-Cloner le repository github :
 
 git clone https://github.com/sSait0o/Click-Cook.git
 
 # Étape 2
-Avoir php version 8.0 ou plus récente
-Avoir composer
+-Avoir php version 8.0 ou plus récente
+-Avoir composer
 
-Vérifier la version de php :
+-Vérifier la version de php :
 
 php -v
 
-Vérifier la version de composer :
+-Vérifier la version de composer :
 
 composer -v
 
-Installer composer avec le terminal :
+-Installer composer avec le terminal :
 
 composer install
 
 # Étape 3
-Se connecter à la base de données
+-Se connecter à la base de données
 
-Aller dans .. > .. >
+-Aller dans .. > .. >
 
-Et changer .. (Ligne ..) avec votre propre base de données
+-Et changer .. (Ligne ..) avec votre propre base de données
 
-Exemple :
+-Exemple :
 
 DATABASE_URL="mysql://user:password@127.0.0.1:3306/db_name"
 
 # Étape 4 
-Lancer le projet avec :
+-Lancer le projet avec :
 
 symfony server:start
