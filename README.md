@@ -24,4 +24,5 @@ Et changer .. (Ligne ..) avec votre propre base de données
 Exemple : DATABASE_URL="mysql://user:password@127.0.0.1:3306/db_name"
 
 # Étape 4 
-Lancer le projet avec : symfony server:start
+Lancer le projet avec :
+symfony server:start
