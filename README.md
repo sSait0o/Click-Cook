@@ -16,8 +16,11 @@ Installer composer avec le terminal : composer install
 
 # Étape 3
 Se connecter à la base de données
+
 Aller dans .. > .. >
+
 Et changer .. (Ligne ..) avec votre propre base de données
+
 Exemple : DATABASE_URL="mysql://user:password@127.0.0.1:3306/db_name"
 
 # Étape 4 
