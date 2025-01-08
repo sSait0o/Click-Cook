@@ -37,7 +37,7 @@ Créer la base de données avec :
 
 php bin/console doctrine:database:create
 
-# Étape 4 
+# Étape 5
 -Lancer le projet avec :
 
 symfony server:start
