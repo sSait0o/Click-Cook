@@ -33,6 +33,11 @@ composer install
 DATABASE_URL="mysql://user:password@127.0.0.1:3306/db_name"
 
 # Étape 4 
+Créer la base de données avec :
+
+php bin/console doctrine:database:create
+
+# Étape 4 
 -Lancer le projet avec :
 
 symfony server:start
